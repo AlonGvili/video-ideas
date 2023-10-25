@@ -1,452 +1,511 @@
-lockfileVersion: 5.4
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 importers:
 
-  .:
-    specifiers: {}
+  .: {}
 
   done/extends-name-overloaded:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   done/use-state-overloads:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.17
-      react: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      '@types/react': 18.0.17
-      react: 18.2.0
+      '@types/react':
+        specifier: ^18.0.17
+        version: 18.0.17
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   done/why-migrate-to-typescript:
-    specifiers:
-      '@types/express': ^4.17.14
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     dependencies:
-      '@types/express': 4.17.14
+      '@types/express':
+        specifier: ^4.17.14
+        version: 4.17.14
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/5.0-beta:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
-      zod: ^3.20.2
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
-      zod: 3.20.2
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
+      zod:
+        specifier: ^3.20.2
+        version: 3.20.2
 
   ideas/array-boolean-constructor:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/as-const-return-function:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.27
-      typescript: ^4.9.5
     devDependencies:
-      '@types/node': 18.7.6
-      '@types/react': 18.0.27
-      typescript: 4.9.5
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      '@types/react':
+        specifier: ^18.0.27
+        version: 18.0.27
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/branded-permissions:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.9.5
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.9.5
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/branded-types:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.9.5
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.9.5
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/budget-trpc:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
-      zod: ^3.20.2
     dependencies:
-      zod: 3.20.2
+      zod:
+        specifier: ^3.20.2
+        version: 3.20.2
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/can-vscode-teach-you-typescript:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.27
-      '@types/react-dom': ^18.0.10
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      '@types/react': 18.0.27
-      '@types/react-dom': 18.0.10
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      '@types/react':
+        specifier: ^18.0.27
+        version: 18.0.27
+      '@types/react-dom':
+        specifier: ^18.0.10
+        version: 18.0.10
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/contravariant-covariant:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/create-type-safe-context:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.17
-      react: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      '@types/react': 18.0.17
-      react: 18.2.0
+      '@types/react':
+        specifier: ^18.0.17
+        version: 18.0.17
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/daniel-interview:
-    specifiers:
-      '@total-typescript/ts-reset': 0.3.7
-      '@types/node': ^18.7.6
-      typescript: ^4.9.5
     devDependencies:
-      '@total-typescript/ts-reset': 0.3.7
-      '@types/node': 18.7.6
-      typescript: 4.9.5
+      '@total-typescript/ts-reset':
+        specifier: 0.3.7
+        version: 0.3.7
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/different-scopes:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/discriminated-union-to-union:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/either:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.9.5
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.9.5
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/error-return-type:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/example:
-    specifiers:
-      '@total-typescript/ts-reset': 0.1.3
-      '@types/node': ^18.7.6
-      typescript: ^4.9.5
     devDependencies:
-      '@total-typescript/ts-reset': 0.1.3
-      '@types/node': 18.7.6
-      typescript: 4.9.5
+      '@total-typescript/ts-reset':
+        specifier: 0.1.3
+        version: 0.1.3
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/excess-property-check:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.17
-      react: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      '@types/react': 18.0.17
-      react: 18.2.0
+      '@types/react':
+        specifier: ^18.0.17
+        version: 18.0.17
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/filter-type-predicate:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/get-from-set:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/global-utility-type:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/globals:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/handbook-speedrun:
-    specifiers:
-      '@types/express': ^4.17.14
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/express': 4.17.14
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/express':
+        specifier: ^4.17.14
+        version: 4.17.14
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/if-else-analogy:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/inversion-of-control:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/jsdoc-in-props:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/next-types-with-satisfies:
-    specifiers:
-      '@types/node': ^18.7.6
-      next: ^12.2.5
-      react: ^18.2.0
-      react-dom: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      next: 12.2.5_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      next:
+        specifier: ^13.5.0
+        version: 13.5.0(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/node-tips:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/object-keys-not-typesafe:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/process-argv-with-zod:
-    specifiers:
-      '@types/express': ^4.17.15
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
-      zod: ^3.20.2
     devDependencies:
-      '@types/express': 4.17.15
-      '@types/node': 18.7.6
-      typescript: 4.7.4
-      zod: 3.20.2
+      '@types/express':
+        specifier: ^4.17.15
+        version: 4.17.15
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
+      zod:
+        specifier: ^3.20.2
+        version: 3.20.2
 
   ideas/react-form-handler:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.17
-      react: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      '@types/react': 18.0.17
-      react: 18.2.0
+      '@types/react':
+        specifier: ^18.0.17
+        version: 18.0.17
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/react-props-union-types:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.17
-      react: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      '@types/react': 18.0.17
-      react: 18.2.0
+      '@types/react':
+        specifier: ^18.0.17
+        version: 18.0.17
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/react-use-ref:
-    specifiers:
-      '@types/node': ^18.7.6
-      '@types/react': ^18.0.17
-      react: ^18.2.0
-      typescript: ^4.7.4
     dependencies:
-      '@types/react': 18.0.17
-      react: 18.2.0
+      '@types/react':
+        specifier: ^18.0.17
+        version: 18.0.17
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/return-types:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/string-replace:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/tips-for-understanding-generics:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
-      zod: ^3.20.2
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
-      zod: 3.20.2
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
+      zod:
+        specifier: ^3.20.2
+        version: 3.20.2
 
   ideas/ts-flows:
-    specifiers:
-      '@types/node': ^18.7.6
-      ts-toolbelt: ^9.6.0
-      typescript: beta
     devDependencies:
-      '@types/node': 18.7.6
-      ts-toolbelt: 9.6.0
-      typescript: 5.0.0-beta
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      ts-toolbelt:
+        specifier: ^9.6.0
+        version: 9.6.0
+      typescript:
+        specifier: beta
+        version: 5.0.0-beta
 
   ideas/unknown-to-object:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/utility-types:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
   ideas/zod-fetcher-demo:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.9.5
-      zod-fetch: 0.1.0
     dependencies:
-      zod-fetch: 0.1.0
+      zod-fetch:
+        specifier: 0.1.0
+        version: 0.1.0
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.9.5
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
 
   ideas/zod-generics:
-    specifiers:
-      '@types/express': 4.17.15
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
-      zod: ^3.20.2
     devDependencies:
-      '@types/express': 4.17.15
-      '@types/node': 18.7.6
-      typescript: 4.7.4
-      zod: 3.20.2
+      '@types/express':
+        specifier: 4.17.15
+        version: 4.17.15
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
+      zod:
+        specifier: ^3.20.2
+        version: 3.20.2
 
   ideas/zod-vs-yup-vs-joi:
-    specifiers:
-      '@types/node': ^18.7.6
-      typescript: ^4.7.4
     devDependencies:
-      '@types/node': 18.7.6
-      typescript: 4.7.4
+      '@types/node':
+        specifier: ^18.7.6
+        version: 18.7.6
+      typescript:
+        specifier: ^4.7.4
+        version: 4.7.4
 
 packages:
 
-  /@next/env/12.2.5:
-    resolution: {integrity: sha512-vLPLV3cpPGjUPT3PjgRj7e3nio9t6USkuew3JE/jMeon/9Mvp1WyR18v3iwnCuX7eUAm1HmAbJHHLAbcu/EJcw==}
+  /@next/env@13.5.0:
+    resolution: {integrity: sha512-mxhf/BskjPURT+qEjNP7wBvqre2q6OXEIbydF8BrH+duSSJQnB4/vzzuJDoahYwTXiUaXpouAnMWHZdG0HU62g==}
     dev: false
 
-  /@next/swc-android-arm-eabi/12.2.5:
-    resolution: {integrity: sha512-cPWClKxGhgn2dLWnspW+7psl3MoLQUcNqJqOHk2BhNcou9ARDtC0IjQkKe5qcn9qg7I7U83Gp1yh2aesZfZJMA==}
-    engines: {node: '>= 10'}
-    cpu: [arm]
-    os: [android]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@next/swc-android-arm64/12.2.5:
-    resolution: {integrity: sha512-vMj0efliXmC5b7p+wfcQCX0AfU8IypjkzT64GiKJD9PgiA3IILNiGJr1fw2lyUDHkjeWx/5HMlMEpLnTsQslwg==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [android]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@next/swc-darwin-arm64/12.2.5:
-    resolution: {integrity: sha512-VOPWbO5EFr6snla/WcxUKtvzGVShfs302TEMOtzYyWni6f9zuOetijJvVh9CCTzInnXAZMtHyNhefijA4HMYLg==}
+  /@next/swc-darwin-arm64@13.5.0:
+    resolution: {integrity: sha512-DavPD8oRjSoCRJana5DCAWdRZ4nbS7/pPw13DlnukFfMPJUk5hCAC3+NbqEyekS/X1IBFdZWSV2lJIdzTn4s6w==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -454,8 +513,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-darwin-x64/12.2.5:
-    resolution: {integrity: sha512-5o8bTCgAmtYOgauO/Xd27vW52G2/m3i5PX7MUYePquxXAnX73AAtqA3WgPXBRitEB60plSKZgOTkcpqrsh546A==}
+  /@next/swc-darwin-x64@13.5.0:
+    resolution: {integrity: sha512-s5QSKKB0CTKFWp3CNMC5GH1YOipH1Jjr5P3w+RQTC4Aybo6xPqeWp/UyDW0fxmLRq0e1zgnOMgDQRdxAkoThrw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -463,26 +522,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-freebsd-x64/12.2.5:
-    resolution: {integrity: sha512-yYUbyup1JnznMtEBRkK4LT56N0lfK5qNTzr6/DEyDw5TbFVwnuy2hhLBzwCBkScFVjpFdfiC6SQAX3FrAZzuuw==}
-    engines: {node: '>= 10'}
-    cpu: [x64]
-    os: [freebsd]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@next/swc-linux-arm-gnueabihf/12.2.5:
-    resolution: {integrity: sha512-2ZE2/G921Acks7UopJZVMgKLdm4vN4U0yuzvAMJ6KBavPzqESA2yHJlm85TV/K9gIjKhSk5BVtauIUntFRP8cg==}
-    engines: {node: '>= 10'}
-    cpu: [arm]
-    os: [linux]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@next/swc-linux-arm64-gnu/12.2.5:
-    resolution: {integrity: sha512-/I6+PWVlz2wkTdWqhlSYYJ1pWWgUVva6SgX353oqTh8njNQp1SdFQuWDqk8LnM6ulheVfSsgkDzxrDaAQZnzjQ==}
+  /@next/swc-linux-arm64-gnu@13.5.0:
+    resolution: {integrity: sha512-E0fCKA8F2vfgZWwcv4iq642No75EiACSNUBNGvc5lx/ylqAUdNwE/9+x2SHv+LPUXFhZ6hZLR0Qox/oKgZqFlg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -490,8 +531,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-musl/12.2.5:
-    resolution: {integrity: sha512-LPQRelfX6asXyVr59p5sTpx5l+0yh2Vjp/R8Wi4X9pnqcayqT4CUJLiHqCvZuLin3IsFdisJL0rKHMoaZLRfmg==}
+  /@next/swc-linux-arm64-musl@13.5.0:
+    resolution: {integrity: sha512-jG/blDDLndFRUcafCQO4TOI3VuoIZh3jQriZ7JaVCgAEZe0D1EUrxKdbBarZ74isutHZ6DpNGRDi/0OHFZpJAA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -499,8 +540,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-gnu/12.2.5:
-    resolution: {integrity: sha512-0szyAo8jMCClkjNK0hknjhmAngUppoRekW6OAezbEYwHXN/VNtsXbfzgYOqjKWxEx3OoAzrT3jLwAF0HdX2MEw==}
+  /@next/swc-linux-x64-gnu@13.5.0:
+    resolution: {integrity: sha512-6JWR7U41uNL6HGwNbGg3Oedt+FN4YuA126sHWKTq3ic5kkhEusIIdVo7+WcswVJl8nTMB1yT3gEPwygQbVYVUA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -508,8 +549,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-musl/12.2.5:
-    resolution: {integrity: sha512-zg/Y6oBar1yVnW6Il1I/08/2ukWtOG6s3acdJdEyIdsCzyQi4RLxbbhkD/EGQyhqBvd3QrC6ZXQEXighQUAZ0g==}
+  /@next/swc-linux-x64-musl@13.5.0:
+    resolution: {integrity: sha512-uY+wrYfD5QUossqznwidOpJYmmcBwojToZx55shihtbTl6afVYzOxsUbRXLdWmZAa36ckxXpqkvuFNS8icQuug==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -517,8 +558,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-arm64-msvc/12.2.5:
-    resolution: {integrity: sha512-3/90DRNSqeeSRMMEhj4gHHQlLhhKg5SCCoYfE3kBjGpE63EfnblYUqsszGGZ9ekpKL/R4/SGB40iCQr8tR5Jiw==}
+  /@next/swc-win32-arm64-msvc@13.5.0:
+    resolution: {integrity: sha512-lWZ5vJTULxTOdLcRmrllNgAdDRSDwk8oqJMyDxpqS691NG5uhle9ZwRj3g1F1/vHNkDa+B7PmWhQgG0nmlbKZg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -526,8 +567,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-ia32-msvc/12.2.5:
-    resolution: {integrity: sha512-hGLc0ZRAwnaPL4ulwpp4D2RxmkHQLuI8CFOEEHdzZpS63/hMVzv81g8jzYA0UXbb9pus/iTc3VRbVbAM03SRrw==}
+  /@next/swc-win32-ia32-msvc@13.5.0:
+    resolution: {integrity: sha512-jirQXnVCU9hi3cHzgd33d4qSBXn1/0gUT/KtXqy9Ux9OTcIcjJT3TcAzoLJLTdhRg7op3MZoSnuFeWl8kmGGNw==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -535,8 +576,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-x64-msvc/12.2.5:
-    resolution: {integrity: sha512-7h5/ahY7NeaO2xygqVrSG/Y8Vs4cdjxIjowTZ5W6CKoTKn7tmnuxlUc2h74x06FKmbhAd9agOjr/AOKyxYYm9Q==}
+  /@next/swc-win32-x64-msvc@13.5.0:
+    resolution: {integrity: sha512-Q8QYLyWcMMUp3DohI04VyJbLNCfFMNTxYNhujvJD2lowuqnqApUBP2DxI/jCZRMFWgKi76n5u8UboLVeYXn6jA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -544,39 +585,39 @@ packages:
     dev: false
     optional: true
 
-  /@swc/helpers/0.4.3:
-    resolution: {integrity: sha512-6JrF+fdUK2zbGpJIlN7G3v966PQjyx/dPt1T9km2wj+EUBqgrxCk3uX4Kct16MIm9gGxfKRcfax2hVf5jvlTzA==}
+  /@swc/helpers@0.5.2:
+    resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
     dependencies:
       tslib: 2.4.0
     dev: false
 
-  /@total-typescript/ts-reset/0.1.3:
+  /@total-typescript/ts-reset@0.1.3:
     resolution: {integrity: sha512-2zbleyN5qVfcV+8qOLN/s7xtoDQxB2CHzfpDeh0UlUIQJoM5CoSqNrnEzjo6A+Xyjtif2QZPQRrZXpwpF16pJw==}
     dev: true
 
-  /@total-typescript/ts-reset/0.3.7:
+  /@total-typescript/ts-reset@0.3.7:
     resolution: {integrity: sha512-yXt2BRRVCJVvzWaxac5n0nCXzIrQEBE/MeYlNQ8/Iq7UeelNmm/AdnUAu18ilSS893mbEQ4u6whPt/HvOPc4rw==}
     dev: true
 
-  /@types/body-parser/1.19.2:
+  /@types/body-parser@1.19.2:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
       '@types/node': 18.7.6
 
-  /@types/connect/3.4.35:
+  /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
       '@types/node': 18.7.6
 
-  /@types/express-serve-static-core/4.17.31:
+  /@types/express-serve-static-core@4.17.31:
     resolution: {integrity: sha512-DxMhY+NAsTwMMFHBTtJFNp5qiHKJ7TeqOo23zVEM9alT1Ml27Q3xcTH0xwxn7Q0BbMcVEJOs/7aQtUWupUQN3Q==}
     dependencies:
       '@types/node': 18.7.6
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
 
-  /@types/express/4.17.14:
+  /@types/express@4.17.14:
     resolution: {integrity: sha512-TEbt+vaPFQ+xpxFLFssxUDXj5cWCxZJjIcB7Yg0k0GMHGtgtQgpvx/MUQUeAkNbA9AAGrwkAsoeItdTgS7FMyg==}
     dependencies:
       '@types/body-parser': 1.19.2
@@ -584,7 +625,7 @@ packages:
       '@types/qs': 6.9.7
       '@types/serve-static': 1.15.0
 
-  /@types/express/4.17.15:
+  /@types/express@4.17.15:
     resolution: {integrity: sha512-Yv0k4bXGOH+8a+7bELd2PqHQsuiANB+A8a4gnQrkRWzrkKlb6KHaVvyXhqs04sVW/OWlbPyYxRgYlIXLfrufMQ==}
     dependencies:
       '@types/body-parser': 1.19.2
@@ -593,28 +634,28 @@ packages:
       '@types/serve-static': 1.15.0
     dev: true
 
-  /@types/mime/3.0.1:
+  /@types/mime@3.0.1:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
 
-  /@types/node/18.7.6:
+  /@types/node@18.7.6:
     resolution: {integrity: sha512-EdxgKRXgYsNITy5mjjXjVE/CS8YENSdhiagGrLqjG0pvA2owgJ6i4l7wy/PFZGC0B1/H20lWKN7ONVDNYDZm7A==}
 
-  /@types/prop-types/15.7.5:
+  /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/qs/6.9.7:
+  /@types/qs@6.9.7:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
 
-  /@types/range-parser/1.2.4:
+  /@types/range-parser@1.2.4:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
 
-  /@types/react-dom/18.0.10:
+  /@types/react-dom@18.0.10:
     resolution: {integrity: sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==}
     dependencies:
       '@types/react': 18.0.27
     dev: true
 
-  /@types/react/18.0.17:
+  /@types/react@18.0.17:
     resolution: {integrity: sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==}
     dependencies:
       '@types/prop-types': 15.7.5
@@ -622,7 +663,7 @@ packages:
       csstype: 3.1.0
     dev: false
 
-  /@types/react/18.0.27:
+  /@types/react@18.0.27:
     resolution: {integrity: sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==}
     dependencies:
       '@types/prop-types': 15.7.5
@@ -630,89 +671,103 @@ packages:
       csstype: 3.1.0
     dev: true
 
-  /@types/scheduler/0.16.2:
+  /@types/scheduler@0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
 
-  /@types/serve-static/1.15.0:
+  /@types/serve-static@1.15.0:
     resolution: {integrity: sha512-z5xyF6uh8CbjAu9760KDKsH2FcDxZ2tFCsA4HIMWE6IkiYMXfVoa+4f9KX+FN0ZLsaMw1WNG2ETLA6N+/YA+cg==}
     dependencies:
       '@types/mime': 3.0.1
       '@types/node': 18.7.6
 
-  /caniuse-lite/1.0.30001383:
-    resolution: {integrity: sha512-swMpEoTp5vDoGBZsYZX7L7nXHe6dsHxi9o6/LKf/f0LukVtnrxly5GVb/fWdCDTqi/yw6Km6tiJ0pmBacm0gbg==}
+  /busboy@1.6.0:
+    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
+    engines: {node: '>=10.16.0'}
+    dependencies:
+      streamsearch: 1.1.0
     dev: false
 
-  /csstype/3.1.0:
+  /caniuse-lite@1.0.30001553:
+    resolution: {integrity: sha512-N0ttd6TrFfuqKNi+pMgWJTb9qrdJu4JSpgPFLe/lrD19ugC6fZgF0pUewRowDwzdDnb9V41mFcdlYgl/PyKf4A==}
+    dev: false
+
+  /client-only@0.0.1:
+    resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: false
+
+  /csstype@3.1.0:
     resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
 
-  /js-tokens/4.0.0:
+  /glob-to-regexp@0.4.1:
+    resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
+    dev: false
+
+  /graceful-fs@4.2.11:
+    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+    dev: false
+
+  /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: false
 
-  /loose-envify/1.4.0:
+  /loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
     dev: false
 
-  /nanoid/3.3.4:
+  /nanoid@3.3.4:
     resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: false
 
-  /next/12.2.5_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-tBdjqX5XC/oFs/6gxrZhjmiq90YWizUYU6qOWAfat7zJwrwapJ+BYgX2PmiacunXMaRpeVT4vz5MSPSLgNkrpA==}
-    engines: {node: '>=12.22.0'}
+  /next@13.5.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-mhguN5JPZXhhrD/nNcezXgKoxN8GT8xZvvGhUQV2ETiaNm+KHRWT1rCbrF5FlbG2XCcLRKOmOe3D5YQgXmJrDQ==}
+    engines: {node: '>=16.14.0'}
     hasBin: true
     peerDependencies:
-      fibers: '>= 3.1.0'
-      node-sass: ^6.0.0 || ^7.0.0
-      react: ^17.0.2 || ^18.0.0-0
-      react-dom: ^17.0.2 || ^18.0.0-0
+      '@opentelemetry/api': ^1.1.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
       sass: ^1.3.0
     peerDependenciesMeta:
-      fibers:
-        optional: true
-      node-sass:
+      '@opentelemetry/api':
         optional: true
       sass:
         optional: true
     dependencies:
-      '@next/env': 12.2.5
-      '@swc/helpers': 0.4.3
-      caniuse-lite: 1.0.30001383
+      '@next/env': 13.5.0
+      '@swc/helpers': 0.5.2
+      busboy: 1.6.0
+      caniuse-lite: 1.0.30001553
       postcss: 8.4.14
       react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      styled-jsx: 5.0.4_react@18.2.0
-      use-sync-external-store: 1.2.0_react@18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      styled-jsx: 5.1.1(react@18.2.0)
+      watchpack: 2.4.0
+      zod: 3.21.4
     optionalDependencies:
-      '@next/swc-android-arm-eabi': 12.2.5
-      '@next/swc-android-arm64': 12.2.5
-      '@next/swc-darwin-arm64': 12.2.5
-      '@next/swc-darwin-x64': 12.2.5
-      '@next/swc-freebsd-x64': 12.2.5
-      '@next/swc-linux-arm-gnueabihf': 12.2.5
-      '@next/swc-linux-arm64-gnu': 12.2.5
-      '@next/swc-linux-arm64-musl': 12.2.5
-      '@next/swc-linux-x64-gnu': 12.2.5
-      '@next/swc-linux-x64-musl': 12.2.5
-      '@next/swc-win32-arm64-msvc': 12.2.5
-      '@next/swc-win32-ia32-msvc': 12.2.5
-      '@next/swc-win32-x64-msvc': 12.2.5
+      '@next/swc-darwin-arm64': 13.5.0
+      '@next/swc-darwin-x64': 13.5.0
+      '@next/swc-linux-arm64-gnu': 13.5.0
+      '@next/swc-linux-arm64-musl': 13.5.0
+      '@next/swc-linux-x64-gnu': 13.5.0
+      '@next/swc-linux-x64-musl': 13.5.0
+      '@next/swc-win32-arm64-msvc': 13.5.0
+      '@next/swc-win32-ia32-msvc': 13.5.0
+      '@next/swc-win32-x64-msvc': 13.5.0
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
     dev: false
 
-  /picocolors/1.0.0:
+  /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: false
 
-  /postcss/8.4.14:
+  /postcss@8.4.14:
     resolution: {integrity: sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
@@ -721,7 +776,7 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /react-dom/18.2.0_react@18.2.0:
+  /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
@@ -731,26 +786,31 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react/18.2.0:
+  /react@18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
     dev: false
 
-  /scheduler/0.23.0:
+  /scheduler@0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
 
-  /source-map-js/1.0.2:
+  /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /styled-jsx/5.0.4_react@18.2.0:
-    resolution: {integrity: sha512-sDFWLbg4zR+UkNzfk5lPilyIgtpddfxXEULxhujorr5jtePTUqiPDc5BC0v1NRqTr/WaFBGQQUoYToGlF4B2KQ==}
+  /streamsearch@1.1.0:
+    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
+    engines: {node: '>=10.0.0'}
+    dev: false
+
+  /styled-jsx@5.1.1(react@18.2.0):
+    resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       '@babel/core': '*'
@@ -762,46 +822,51 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
+      client-only: 0.0.1
       react: 18.2.0
     dev: false
 
-  /ts-toolbelt/9.6.0:
+  /ts-toolbelt@9.6.0:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: true
 
-  /tslib/2.4.0:
+  /tslib@2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
 
-  /typescript/4.7.4:
+  /typescript@4.7.4:
     resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 
-  /typescript/4.9.5:
+  /typescript@4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 
-  /typescript/5.0.0-beta:
+  /typescript@5.0.0-beta:
     resolution: {integrity: sha512-+SSabbSXG5mtF+QGdV9uXXt9Saq1cSyI6hSG7znhaLoquleJpnmfkwSxFngK9c2fWWi1W/263TuzXQOsIcdjjA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 
-  /use-sync-external-store/1.2.0_react@18.2.0:
-    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  /watchpack@2.4.0:
+    resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
+    engines: {node: '>=10.13.0'}
     dependencies:
-      react: 18.2.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
     dev: false
 
-  /zod-fetch/0.1.0:
+  /zod-fetch@0.1.0:
     resolution: {integrity: sha512-+1M/rSG7ogaewYhaPhoZWAG19H3cjNyiM/4xVOYyYUYrSXlkeCXQauMtEnCmC6wSpJlRiV4G3vWOxeC3148O2A==}
     dev: false
 
-  /zod/3.20.2:
+  /zod@3.20.2:
     resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
+
+  /zod@3.21.4:
+    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
